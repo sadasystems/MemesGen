@@ -71,7 +71,6 @@
 			else { data.data.memes_saved.values[i].likes = 0; }
 
 	        $( "#front-page-memes" ).append( '<div class="col-4 col-12-medium"> <section class="box feature" > <a href="chatPage.html" class="image featured"><img src="' + data.data.memes_saved.values[i].image_source + '" alt="" /></a><div class="inner"></div><ul class="list-inline action-menu"><li><a href="" class="like" meme-id="' + data.data.memes_saved.values[i].uuid + '"><span class="fa fa-thumbs-up"></span> <span class="menulabel">Like</span> <span class="counter">' + data.data.memes_saved.values[i].likes + '</span></a></li></ul> </section></div>' );
-		}
 	    });
     });
 
