@@ -62,12 +62,8 @@
 	//     - GET https://makeopensourcegreatagain.com/memegen/api/?table_name=memes_saved
 	$.getJSON("/api/?table_name=memes_saved", function(data){
             $.each(data.data.memes_saved.values, function(i, item) {
-		//console.log(data.data.memes_saved.values[i]);
-		//console.log(data.data.memes_likes.values[i]);
-		// even with graphql, astra is only returning 2 rows.... 
-		// also need to make the ID available to the like click action for link attribute meme-id
-		// had issue with
-		//console.log(typeof data.data.memes_likes.values[i]);
+			//console.log(data.data.memes_saved.values[i]);
+			//console.log(data.data.memes_likes.values[i]);
 			if (typeof data.data.memes_likes.values[i] === 'undefined') 
 				{ data.data.memes_saved.values[i].likes = 0; }
 			else 
