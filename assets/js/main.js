@@ -67,7 +67,8 @@
 		// even with graphql, astra is only returning 2 rows.... 
 		// also need to make the ID available to the like click action for link attribute meme-id
 		// had issue with
-			if (typeof data.data.memes_likes === 'undefined') 
+		console.log(typeof data.data.memes_likes.values[i]);
+			if (typeof data.data.memes_likes.values[i] === 'undefined') 
 				{ data.data.memes_saved.values[i].likes = 0; }
 			else 
 				{ data.data.memes_saved.values[i].likes = data.data.memes_likes.values[i].likes; }  
