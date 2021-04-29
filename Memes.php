@@ -213,7 +213,7 @@
                 </div>
                 <div class="mb-4 mt-3">
                     <button class="btn btn-success" id="generate-meme">Generate Meme</button>
-                    <button class="btn btn-success" id="save-meme">Save Meme</button>
+                    
                 </div>
             </div>
         </div>
