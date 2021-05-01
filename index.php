@@ -35,7 +35,7 @@
 			<!-- Features -->
 				<div id="features-wrapper">
 					<div class="container">
-						<div class="topMemes">
+						<div class="topMemes-Liked">
 							<button>Most Liked</button>
 							<button>New</button>
 						</div>
@@ -52,7 +52,7 @@
 					<h1>Main body</h1>
 				</div> -->
 
-			<!-- Footer -->
+				<!-- Footer -->
 				<div id="footer-wrapper">
 					<footer id="footer" class="container">
 						<div class="row">
@@ -62,17 +62,15 @@
 
 								<!-- Contact -->
 									<section class="widget contact last">
-										<h3>Contact Us</h3>
+									
 										<ul>
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+											<li><a href="https://twitter.com/SADA" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="https://www.facebook.com/SADASystems" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+											<li><a href="https://www.youtube.com/channel/UC57cHEmW6dSt5IP1aJI9FUg" class="icon brands fa-youtube"><span class="label">Instagram</span></a></li>
+											<li><a href="https://www.linkedin.com/company/sada/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+											
 										</ul>
-										<p>1234 Fictional Road<br />
-										Nashville, TN 00000<br />
-										(800) 555-0000</p>
+										
 									</section>
 
 							</div>
@@ -81,7 +79,7 @@
 							<div class="col-12">
 								<div id="copyright">
 									<ul class="menu">
-										<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										<li>&copy; 2021 SADA, Inc. All Rights Reserved</li><li><a href="https://sada.com/privacy-policy/">Privacy Policy </a></li> <li> <a href="https://sada.com/terms-of-use/">Terms Of Use</a></li>
 									</ul>
 								</div>
 							</div>
